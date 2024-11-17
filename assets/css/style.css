@@ -1,27 +1,4 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
-
 :root {
-
-  /**
-   * colors
-   */
-
-  /* gradient */
 
   --bg-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -111,10 +88,6 @@
 
 }
 
-
-
-
-
 /*-----------------------------------*\
   #RESET
 \*-----------------------------------*/
@@ -158,10 +131,6 @@ html { font-family: var(--ff-poppins); }
 body {
     background:#ffffff;
 }
-
-
-
-
 
 /*-----------------------------------*\
   #REUSED STYLE
@@ -293,11 +262,6 @@ article.active {
         border-radius: inherit;
         z-index: -1;
     }
-
-
-
-
-
 /*-----------------------------------*\
   #MAIN
 \*-----------------------------------*/
@@ -307,11 +271,6 @@ main {
   margin-bottom: 75px;
   min-width: 259px;
 }
-
-
-
-
-
 /*-----------------------------------*\
   #SIDEBAR
 \*-----------------------------------*/
@@ -451,10 +410,6 @@ main {
         color: #0277bd;
     }
 
-
-
-
-
 /*-----------------------------------*\
   #NAVBAR
 \*-----------------------------------*/
@@ -495,10 +450,6 @@ main {
     .navbar-link.active {
         color: #0277bd;
     }
-
-
-
-
 
 /*-----------------------------------*\
   #ABOUT
@@ -765,16 +716,11 @@ main {
 
 .clients-item img:hover { filter: grayscale(0); }
 
-
-
-
-
 /*-----------------------------------*\
   #RESUME
 \*-----------------------------------*/
 
 .article-title { margin-bottom: 30px; }
-
 
 /**
  * education and experience 
@@ -875,11 +821,6 @@ main {
     height: 100%;
     border-radius: inherit;
 }
-
-
-
-
-
 /*-----------------------------------*\
   #PORTFOLIO
 \*-----------------------------------*/
@@ -1041,13 +982,6 @@ main {
     text-transform: capitalize;
     line-height: 1.3;
 }
-
-
-
-
-
-
-
 /*-----------------------------------*\
   #BLOG
 \*-----------------------------------*/
@@ -1238,11 +1172,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 .form-btn:disabled:hover { background: var(--border-gradient-onyx); }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
-
-
-
-
-
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -1269,11 +1198,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .blog-banner-box { height: auto; }
 
 }
-
-
-
-
-
 /**
  * responsive larger than 580px screen
  */
@@ -1299,9 +1223,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     --fs-8: 12px;
 
   }
-
-
-
   /**
    * #REUSED STYLE
    */
@@ -1328,9 +1249,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     border-radius: 12px;
     font-size: 18px;
   }
-
-
-
   /**
    * #MAIN
    */
@@ -1339,9 +1257,6 @@ textarea.form-input::-webkit-resizer { display: none; }
     margin-top: 60px;
     margin-bottom: 100px;
   }
-
-
-
   /**
    * #SIDEBAR
    */
@@ -1396,8 +1311,6 @@ textarea.form-input::-webkit-resizer { display: none; }
   .navbar-list { gap: 20px; }
 
   .navbar-link { --fs-8: 14px; }
-
-
 
   /**
    * #ABOUT
