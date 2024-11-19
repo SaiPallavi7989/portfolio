@@ -789,7 +789,7 @@ main {
  * skills 
  */
 
-.skills-title { margin-bottom: 20px; }
+/**.skills-title { margin-bottom: 20px; }
 
 .skills-list { padding: 20px; }
 
@@ -834,7 +834,7 @@ main {
 
 .filter-select {
   background: #ffffff;
-  color: #000000;
+  color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -862,7 +862,7 @@ main {
 .filter-select.active .select-icon { transform: rotate(0.5turn); }
 
 .select-list {
-  background: #000000;
+  background: #ffffff;
   position: absolute;
   top: calc(100% + 6px);
   width: 100%;
